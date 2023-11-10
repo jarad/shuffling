@@ -1,0 +1,22 @@
+Package: shuffling
+Title: Contains functions for card shuffling
+Version: 0.0.0.9001
+Authors@R: 
+    c(person(given = "Jarad",
+             family = "Niemi",
+             role = "aut",
+             email = "nieim@iastate.edu",
+             comment = c(ORCID = "0000-0002-5079-158X")),
+      person(given = "Fiona",
+             family = "Cao",
+             role = c("aut", "cre"),
+             email = "fcao@iastate.edu"))
+Description: This package contains functions for card shuffling such as shuffle,
+    cut, etc. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
