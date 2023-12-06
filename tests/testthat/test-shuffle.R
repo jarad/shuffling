@@ -1,3 +1,7 @@
+test_that("shuffle gives errors", {
+  expect_error(shuffle("test"))
+})
+
 test_that("shuffle works", {
   set.seed(1)
   expect_equal(shuffle(1:52),
